@@ -19,10 +19,10 @@ st.set_page_config(
 )
 
 # Example local Docker container URL
-# url = 'http://api:8000'
+url = 'https://skin-cancer-detection-5fdu6rckpq-uc.a.run.app'
 # Example localhost development URL
-url = 'http://localhost:8000'
-load_dotenv()
+#url = 'http://localhost:8000'
+#load_dotenv()
 #url = os.getenv('API_URL')
 
 
