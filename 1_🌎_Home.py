@@ -54,25 +54,26 @@ def cs_body():
     st.markdown("### Please drag the skin image here (Needs to be taken from a Dermatoscope) 👇")
     img_file_buffer = st.file_uploader('Upload an image', type=['png','jpg'])
 
-    col1,col2=st.columns(2)
+    if img_file_buffer is not None:
+         col1, col2 = st.columns(2)
    
-    with col1:
-    ### Display the image user uploaded
-        st.image(Image.open(img_file_buffer), caption="Here's the image you uploaded :apuntando_hacia_arriba:")
-    with col2:
-        with st.spinner("Wait for it..."):
-      ### Get bytes from the file buffer
-            img_bytes = img_file_buffer.getvalue()
-      ### Make request to  API (stream=True to stream response as bytes)
-        res = requests.post(url + "/upload_image", files={'img': img_bytes})
-        if res.status_code == 200:
-        ### Display the image returned by the API
-            st.markdown(res.json())
-        else:
-            st.markdown("**Oops**, something went wrong :sudor: Please try again.")
-            print (res.status_code, res.content)
+         with col1:
+         ### Display the image user uploaded
+            st.image(Image.open(img_file_buffer), caption="Here's the image you uploaded :apuntando_hacia_arriba:")
+         with col2:
+            with st.spinner("Wait for it..."):
+         ### Get bytes from the file buffer
+               img_bytes = img_file_buffer.getvalue()
+         ### Make request to  API (stream=True to stream response as bytes)
+            res = requests.post(url + "/upload_image", files={'img': img_bytes})
+            if res.status_code == 200:
+            ### Display the image returned by the API
+               st.markdown(res.json())
+            else:
+               st.markdown("**Oops**, something went wrong :sudor: Please try again.")
+               print (res.status_code, res.content)
 
-    return res.content
+         return res.content
    
 def main():
    cs_body()
