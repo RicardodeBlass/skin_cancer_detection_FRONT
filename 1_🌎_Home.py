@@ -19,11 +19,7 @@ st.set_page_config(
    initial_sidebar_state="expanded"
 )
 
-def main():
-    cs_slidebar()
-    cs_body()
 
-    return None
 
 
 #url = 'https://skin-cancer-detection-5fdu6rckpq-uc.a.run.app'
@@ -82,6 +78,11 @@ def cs_body():
             print (res.status_code, res.content)
 
     return res.content
+   
+def main():
+   cs_slidebar()
+   cs_body()
+   
 
 if __name__ == '__main__':
     main()
