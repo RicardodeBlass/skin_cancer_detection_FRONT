@@ -31,15 +31,15 @@ st.markdown("---")
 
 co1,co2,co3,co4,co5,co6,co7,co8,co9 =st.columns(9)
 
-co1.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Kaggle.png'))
-co2.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/phyton.png'))
-co3.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/co.png'))
-co4.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/TF.png'))
-co5.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/keras.png'))
-co6.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/docker.png'))
-co7.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Google-Cloud-Run.png'))
-co8.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/github.png'))
-co9.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Streamlit.png'))
+co1.image(Image.open('/Kaggle.png'))
+co2.image(Image.open('/phyton.png'))
+co3.image(Image.open('/co.png'))
+co4.image(Image.open('/TF.png'))
+co5.image(Image.open('/keras.png'))
+co6.image(Image.open('/docker.png'))
+co7.image(Image.open('/Google-Cloud-Run.png'))
+co8.image(Image.open('/github.png'))
+co9.image(Image.open('/Streamlit.png'))
 
 
 
@@ -65,7 +65,7 @@ st.write("The model's performance was also compared with Data Augmentation and S
 
 with c2:
     st.subheader("**Confussion Matrix SMOTE 📶**")
-    st.image('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Matrix_Conf.png')
+    st.image('/Matrix_Conf.png')
 
 st.write('''Subsequently, Docker and Google Cloud Run were used to deploy the model in the cloud, and the API was designed and uploaded to Streamlit.
          All these components are now stored in GitHub repositories.''')
