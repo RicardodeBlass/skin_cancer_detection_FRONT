@@ -1,8 +1,7 @@
 API_URL='https://skin-cancer-detection-5fdu6rckpq-uc.a.run.app'
-
 [theme]
-textColor = "#090C25"
-backgroundColor = '#DCDDF4'
-primaryColor = '#282B7B'
-secondaryBackgroundColor = '#3E43C1'
+textColor="#090C25"
+backgroundColor='#DCDDF4'
+primaryColor='#282B7B'
+secondaryBackgroundColor='#3E43C1'
 font="sans serif"
