@@ -20,6 +20,7 @@ st.set_page_config(
 )
 
 def main():
+    cs_slidebar()
     cs_body()
 
     return None
@@ -29,6 +30,12 @@ url = 'http://localhost:8000'
 load_dotenv()
 #url = os.getenv('API_URL')
 # App title and description
+
+def cs_sidebar():
+
+    st.sidebar.header('Le Wagon Project')
+    return None
+
 
 def cs_body():
 
