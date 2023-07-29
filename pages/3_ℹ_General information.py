@@ -10,7 +10,6 @@ backgroundColor = '#DCDDF4'
 primaryColor = '#282B7B'
 secondaryBackgroundColor = '#3E43C1'
 font="sans serif"
-st.markdown(os.getcwd())
 # Set page tab display
 st.set_page_config(
    page_title="General information ℹ️",
