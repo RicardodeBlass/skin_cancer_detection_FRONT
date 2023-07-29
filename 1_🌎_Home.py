@@ -27,11 +27,6 @@ load_dotenv()
 url = os.getenv('API_URL')
 # App title and description
 
-def cs_sidebar():
-
-    st.sidebar.header('Le Wagon Project')
-    return None
-
 
 def cs_body():
 
@@ -80,7 +75,6 @@ def cs_body():
     return res.content
    
 def main():
-   cs_slidebar()
    cs_body()
    
 
