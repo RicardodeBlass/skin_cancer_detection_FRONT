@@ -25,8 +25,8 @@ def main():
     return None
 
 
-url = 'http://localhost:8000'
-load_dotenv()
+url = 'https://skin-cancer-detection-5fdu6rckpq-uc.a.run.app'
+#load_dotenv()
 #url = os.getenv('API_URL')
 # App title and description
 
