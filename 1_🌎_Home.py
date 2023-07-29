@@ -55,8 +55,6 @@ def cs_body():
 ### Create a native Streamlit file upload input
     st.markdown("### Please drag the skin image here (Needs to be taken from a Dermatoscope) 👇")
     img_file_buffer = st.file_uploader('Upload an image', type=['png','jpg'])
-    if img_file_buffer is not None:
-        col1, col2 = st.columns(2)
     with col1:
     ### Display the image user uploaded
         st.image(Image.open(img_file_buffer), caption="Here's the image you uploaded :apuntando_hacia_arriba:")
