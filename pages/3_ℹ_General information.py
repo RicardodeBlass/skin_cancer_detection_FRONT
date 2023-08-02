@@ -10,7 +10,6 @@ backgroundColor = '#DCDDF4'
 primaryColor = '#282B7B'
 secondaryBackgroundColor = '#3E43C1'
 font="sans serif"
-
 # Set page tab display
 st.set_page_config(
    page_title="General information ℹ️",
@@ -31,15 +30,15 @@ st.markdown("---")
 
 co1,co2,co3,co4,co5,co6,co7,co8,co9 =st.columns(9)
 
-co1.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Kaggle.png'))
-co2.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/phyton.png'))
-co3.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/co.png'))
-co4.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/TF.png'))
-co5.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/keras.png'))
-co6.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/docker.png'))
-co7.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Google-Cloud-Run.png'))
-co8.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/github.png'))
-co9.image(Image.open('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Streamlit.png'))
+co1.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Kaggle.png'))
+co2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/phyton.png'))
+co3.image(Image.open('/mount/src/skin_cancer_detection_front/pages/co.png'))
+co4.image(Image.open('/mount/src/skin_cancer_detection_front/pages/TF.png'))
+co5.image(Image.open('/mount/src/skin_cancer_detection_front/pages/keras.png'))
+co6.image(Image.open('/mount/src/skin_cancer_detection_front/pages/docker.png'))
+co7.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Google-Cloud-Run.png'))
+co8.image(Image.open('/mount/src/skin_cancer_detection_front/pages/github.png'))
+co9.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Streamlit.png'))
 
 
 
@@ -65,7 +64,7 @@ st.write("The model's performance was also compared with Data Augmentation and S
 
 with c2:
     st.subheader("**Confussion Matrix SMOTE 📶**")
-    st.image('/Users/dess/code/RicardodeBlass/skin_cancer_classification/frontend/Pages/Matrix_Conf.png')
+    st.image('/mount/src/skin_cancer_detection_front/pages/Matrix_Conf.png')
 
 st.write('''Subsequently, Docker and Google Cloud Run were used to deploy the model in the cloud, and the API was designed and uploaded to Streamlit.
          All these components are now stored in GitHub repositories.''')
