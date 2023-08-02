@@ -16,15 +16,15 @@ st.title('**The team 🌟**')
 
 co1,co2,co3=st.columns(3)
 with co1:
-    st.write('  Ricardo de Blass    ')
+    st.write('Ricardo de Blass')
     st.info('**GitHub: [@RicardodeBlass](https://github.com/RicardodeBlass)**', icon="💻")
 
 with co2:
-    st.write('  Desseyra Camaño ',)
+    st.write('Desseyra Camaño',)
     st.info('**GitHub: [@Desseyra](https://github.com/Desseyra)**', icon="💻")
 
 with co3:
-    st.write('  Leonardo Michel ')
+    st.write('Leonardo Michel')
     st.info('**GitHub: [@LeonMichel96](https://github.com/LeonMichel96)**', icon="💻")
 
 
