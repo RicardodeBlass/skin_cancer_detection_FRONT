@@ -21,12 +21,15 @@ st.set_page_config(
 st.title('The idea 🧠')
 
 col1, col2 =st.columns(2)
-with col1:
-    st.write('')
-    st.markdown('''
-The purpose of this project is to classify skin images obtained through dermatoscopy into 7 different lesions or diseases,
-thereby **_reducing diagnosis time and medical costs_**.
 
+st.write('')
+
+st.markdown('''
+The purpose of this project is to classify skin images obtained through dermatoscopy into 7 different lesions or diseases,
+thereby **_reducing diagnosis time and medical costs_**.''')
+
+with col1:
+    st.markdown('''
 The 7 classifications are:
 
 >1. Actinic keratoses and intraepithelial carcinoma / Bowen's disease (AKIEC)
@@ -43,12 +46,14 @@ The 7 classifications are:
 col2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/dataset-cover.png'))
 
 c1, c2 = st.columns(2)
-with c1:
-    st.title('How it works? 👩‍⚕️')
 
-    st.markdown('''
+st.title('How it works? 👩‍⚕️')
+
+st.markdown('''
 Analysis time is approximately **1 month**, critical period for early detection of the lesion and to increase the chances of a successful treatment.
 In average the cost of the entire process ir around **$1,000** if a correct diagnosis is sought.''')
+
+with c1:
 
     st.markdown('''The process to make a correct diagnosis are the follow:
 
