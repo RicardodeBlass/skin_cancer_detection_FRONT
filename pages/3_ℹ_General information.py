@@ -24,7 +24,7 @@ st.subheader('Summary')
 st.markdown('''
 Using a dataset of 10,000 dermatoscopic images from Kaggle as the primary source of information, this model was
 design employing the TensorFlow and Keras libraries in Python and trained in Google Colab, also a transfer learning
-approach was used with Inception-ResNet-V2 convolutional neural network.
+approach was used from TensorFlow - Keras pretrained models.
 ''')
 st.markdown("---")
 

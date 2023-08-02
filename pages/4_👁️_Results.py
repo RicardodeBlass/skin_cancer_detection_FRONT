@@ -31,7 +31,10 @@ st.write('''According to Nature and the journal of the European Society for Medi
 
 st.subheader('Best Model Combination 🟢')
 st.info('This model achieved an **accuracy of 78.43%, precision of 76.34%, and recall of 76.56%.**')
-st.markdown('''The selected model at the end of the experiments was as follows:
+
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown('''The selected model at the end of the experiments was as follows:
 > - CNN Model: Inception-Resnet-V2
 > - Optimizer: RMSPROP
 > - Learning rate: 0.0001
@@ -47,6 +50,7 @@ st.markdown('''The selected model at the end of the experiments was as follows:
 > - Regularizers (l2) - Ridge: 0.05
             ''')
 
+col2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/model.jpeg'))
 
 
 st.subheader('Next steps 🔜')
