@@ -20,8 +20,10 @@ st.set_page_config(
 
 st.title('The idea 🧠')
 
-st.write('')
-st.markdown('''
+col1, col2 =st.columns(2)
+with col1:
+    st.write('')
+    st.markdown('''
 The purpose of this project is to classify skin images obtained through dermatoscopy into 7 different lesions or diseases,
 thereby **_reducing diagnosis time and medical costs_**.
 
@@ -36,15 +38,19 @@ The 7 classifications are:
 >7. Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas, and hemorrhage, VASC)
 
 ''')
-st.markdown("---")
+    st.markdown("---")
 
-st.title('How it works? 👩‍⚕️')
+col2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/dataset-cover.png'))
 
-st.markdown('''
+c1, c2 = st.columns(2)
+with c1:
+    st.title('How it works? 👩‍⚕️')
+
+    st.markdown('''
 Analysis time is approximately **1 month**, critical period for early detection of the lesion and to increase the chances of a successful treatment.
 In average the cost of the entire process ir around **$1,000** if a correct diagnosis is sought.''')
 
-st.markdown('''The process to make a correct diagnosis are the follow:
+    st.markdown('''The process to make a correct diagnosis are the follow:
 
 >1. Initial clinical evaluation: The first consultation with a general physician who evaluates the suspicious
 lesion and possible causes.
@@ -65,6 +71,8 @@ to a specialist in dermatological oncology, who conducts additional laboratory s
 >7. Evaluation of results: The dermatologist reviews all the information and studies to arrive at a correct
 diagnosis and initiate treatment.'''
 )
+
+c2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
 
 st.info('''
 This project was created with the purpose of supporting the medical community, saving money on the diagnosis process and reducing the associated costs

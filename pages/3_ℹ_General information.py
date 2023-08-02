@@ -45,7 +45,7 @@ co9.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Streamlit.png
 c1,c2 = st.columns(2)
 with c1:
     st.subheader('Methodology 🧪')
-    st.markdown('''More tha 100 experiments were conducted for the final dense layers, considering various combinations of:
+    st.markdown('''More than 100 experiments were conducted for the final dense layers, considering various combinations of:
 
 > - Convolutional models: ResNet50, Xception, and Inception-ResNet-V2.
 > - Number of dense layers: 1-3

@@ -59,7 +59,7 @@ def cs_body():
 
          with col1:
          ### Display the image user uploaded
-            st.image(Image.open(img_file_buffer), caption="Here's the image you uploaded :apuntando_hacia_arriba_2:")
+            st.image(Image.open(img_file_buffer), caption="Here's the image you uploaded 👆")
          with col2:
             with st.spinner("Wait for it..."):
          ### Get bytes from the file buffer
@@ -70,7 +70,7 @@ def cs_body():
             ### Display the image returned by the API
                st.header(res.json())
             else:
-               st.markdown("**Oops**, something went wrong :sudor: Please try again.")
+               st.markdown("**Oops**, something went wrong 😓 Please try again.")
                print (res.status_code, res.content)
 
          return res.content
