@@ -51,7 +51,7 @@ def cs_body():
             ''')
     st.markdown("---")
 ### Create a native Streamlit file upload input
-    st.markdown("### Please drag the skin image here (Needs to be taken from a Dermatoscope) 👇")
+    st.markdown("### Please drag the skin image here (Required to be taken from a Dermatoscope) 👇")
     img_file_buffer = st.file_uploader('Upload an image', type=['png','jpg'])
 
     if img_file_buffer is not None:

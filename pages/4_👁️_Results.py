@@ -20,13 +20,13 @@ st.set_page_config(
 
 st.title('Results 👁️')
 
-st.write('''According to Nature and the journal of the European Society for Medical Oncology and
-         the Japanese Society of Medical Oncology, the accuracy of a correct diagnosis by inexperienced
-         dermatologists and experts with dermatoscopic imaging alone was on average **71.3%** and **75.7%**, respectively.
-        While with additional information from studies increased accuracy by 10%. This means that this type of tools can
-        be useful to help guide the doctor on what type of laboratory studies needs to be performed and give an idea of
+st.write('''According to Nature science journal, the journal of the European Society for Medical Oncology and
+         the Japanese Society of Medical Oncology, the accuracy of a diagnosis performed by inexperienced
+         dermatologists and experts with dermatoscopic imaging alone ranges between **71.3%** and **75.7%**, respectively.
+        While taking into account additional information from dermatology studies increases accuracy by 10%. This means that this type of tools could
+        be useful to offer guidance to the doctors on what type of laboratory studies need to be performed and give an idea of
         the type of disease or lession that the patient may have, especially in doctors with little experience in the area,
-        thus reducing the time of diagnosis and costs in laboratory studies. ''')
+        resulting in reduction of diagnosis times and costs in laboratory studies. ''')
 
 
 st.subheader('Best Model Combination 🟢')

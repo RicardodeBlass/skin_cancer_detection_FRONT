@@ -23,8 +23,8 @@ st.title('General information ℹ️')
 st.subheader('Summary')
 st.markdown('''
 Using a dataset of 10,000 dermatoscopic images from Kaggle as the primary source of information, this model was
-design employing the TensorFlow and Keras libraries in Python and trained in Google Colab, also a transfer learning
-approach was used from TensorFlow - Keras pretrained models.
+built using a deep learning approach employing convolutional neural networks with the TensorFlow and Keras libraries in Python and trained in Google Colab, also a transfer learning
+approach was used from TensorFlow - Keras pretrained architecture models.
 ''')
 st.markdown("---")
 
@@ -51,8 +51,8 @@ with c1:
 > - Number of dense layers: 1-3
 > - Number of neurons and distribution in each layer: 250 to 5000, with pyramid, inverse pyramid, and linear orders.
 > - Optimizers: Adam, RMSPROP, Adagrad, and SGD.
-> - Learning rate: 0.1 - 0.0001
-> - Batch size: 32 - 264
+> - Learning rates: 0.1 - 0.0001
+> - Batch sizes: 32 - 264
 > - Pooling: Average - Max
 > - Epochs: 100 - 200
 > - EarlyStopping: 80 - 150
@@ -60,7 +60,7 @@ with c1:
 > - A dropout layer of 20% was applied to each Dense Layer.
 ''')
 
-st.write("The model's performance was also compared with Data Augmentation and SMOTE using Confusion Matrix.")
+st.write("Final performances were also compared with models applying Data Augmentation and SMOTE techniques, by using Confusion Matrix.")
 
 with c2:
     st.subheader("**Confussion Matrix SMOTE 📶**")
@@ -69,5 +69,5 @@ with c2:
 st.write('''Subsequently, Docker and Google Cloud Run were used to deploy the model in the cloud, and the API was designed and uploaded to Streamlit.
          All these components are now stored in GitHub repositories.''')
 
-st.info('''To use the API, you only need to upload a skin image taken from a dermatoscope, and it will automatically provide the corresponding result.
+st.info('''To use the API, you only need to upload a skin image taken from a dermatoscope, and it will automatically provide the corresponding prediction.
 ''')

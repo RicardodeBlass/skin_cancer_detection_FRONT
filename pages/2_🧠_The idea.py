@@ -25,12 +25,12 @@ col1, col2 =st.columns(2)
 st.write('')
 
 st.markdown('''
-The purpose of this project is to classify skin images obtained through dermatoscopy into 7 different lesions or diseases,
+The purpose of this project is to classify skin images obtained through dermatoscopy into seven different lesions or diseases,
 thereby **_reducing diagnosis time and medical costs_**.''')
 
 with col1:
     st.markdown('''
-The 7 classifications are:
+The seven classifications are the following:
 
 >1. Actinic keratoses and intraepithelial carcinoma / Bowen's disease (AKIEC)
 >2. Basal cell carcinoma (BCC)
@@ -50,12 +50,12 @@ c1, c2 = st.columns(2)
 st.title('How it works? 👩‍⚕️')
 
 st.markdown('''
-Analysis time is approximately **1 month**, critical period for early detection of the lesion and to increase the chances of a successful treatment.
+Normal dermatological analysis can take approximately **one month**, this period can play a critical role for early detection of the disease in order to increase the chances of a successful treatment.
 In average the cost of the entire process ir around **$1,000** if a correct diagnosis is sought.''')
 
 with c1:
 
-    st.markdown('''The process to make a correct diagnosis are the follow:
+    st.markdown('''The process to make a correct diagnosis is as follows:
 
 >1. Initial clinical evaluation: The first consultation with a general physician who evaluates the suspicious
 lesion and possible causes.
