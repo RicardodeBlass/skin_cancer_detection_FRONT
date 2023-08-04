@@ -30,7 +30,7 @@ url = os.getenv('API_URL')
 
 def cs_body():
 
-    st.title('Image Recognition for diverse skin lessions and diseases 📸')
+    st.title('Image Recognition for diverse skin lesions and diseases 📸')
 
     colu1, colu2 = st.columns(2)
 
