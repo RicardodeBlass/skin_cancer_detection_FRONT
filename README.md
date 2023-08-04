@@ -1,11 +1,12 @@
 # skin_cancer_detection_FRONT
-**Summary**
+**Summary ℹ️**
 
 Using a dataset of 10,000 dermatoscopic images from Kaggle as the primary source of information, 
 this model was design employing the TensorFlow and Keras libraries in Python and trained in Google Colab, 
 also a transfer learning approach was used from TensorFlow - Keras pretrained models.
 
 **Methodology 🧪**
+
 **More than 100 experiments** were conducted for the final dense layers, considering various combinations of:
 
 > Convolutional models: ResNet50, Xception, and Inception-ResNet-V2.
