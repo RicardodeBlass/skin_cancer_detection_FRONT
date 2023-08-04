@@ -40,7 +40,7 @@ def cs_body():
 
         st.write('Welcome to our image predictor')
         st.markdown('''
-            > This is a IA made from Convolutional Neural Networks for the identification of diverse skin lessions and diseases such as:
+            > This is a IA made from Convolutional Neural Networks for the identification of diverse skin lesions and diseases such as:
             > * Melanoma
             > * Melanocytic nevi
             > * Basal cell carcinoma
