@@ -52,7 +52,7 @@ st.title('How it works? 👩‍⚕️')
 
 st.markdown('''
 Normal dermatological analysis can take approximately **one month**, this period can play a critical role for early detection of the disease in order to increase the chances of a successful treatment.
-In average the cost of the entire process is around **$1,000** if a correct diagnosis is sought.''')
+In average the cost of the entire process is around **$1,000** when a correct diagnosis is made.''')
 
 with c1:
 
