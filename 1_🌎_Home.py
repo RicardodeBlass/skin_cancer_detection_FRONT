@@ -47,7 +47,7 @@ def cs_body():
             > * Actinic keratoses and intraepithelial carcinoma / Bowen's disease
             > * Benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses
             > * Dermatofibroma
-            > * Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage
+            > * Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage)
             ''')
     st.markdown("---")
 ### Create a native Streamlit file upload input
