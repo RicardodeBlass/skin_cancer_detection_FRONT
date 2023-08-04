@@ -25,7 +25,7 @@ st.write('''According to Nature science journal, the journal of the European Soc
          dermatologists and experts with dermatoscopic imaging alone ranges between **71.3%** and **75.7%**, respectively.
         While taking into account additional information from dermatology studies increases accuracy by 10%. This means that this type of tools could
         be useful to offer guidance to the doctors on what type of laboratory studies need to be performed and give an idea of
-        the type of disease or lession that the patient may have, especially in doctors with little experience in the area,
+        the type of disease or lesion that the patient may have, especially in doctors with little experience in the area,
         resulting in reduction of diagnosis times and costs in laboratory studies. ''')
 
 
