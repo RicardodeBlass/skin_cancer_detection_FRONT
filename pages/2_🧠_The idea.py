@@ -74,13 +74,16 @@ related to cancer.
 >6. Oncology consultation: If the diagnosis is unclear or further studies are needed, the patient is referred
 to a specialist in dermatological oncology, who conducts additional laboratory studies to gather more information.
 >
->7. Evaluation of results: The dermatologist reviews all the information and studies to arrive at a correct
+>7. Evaluation of results: The dermatologist reviews all the information and studies to get a correct
 diagnosis and initiate treatment.'''
 )
 
-c2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
+with c2:
+   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
+   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
+   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
 
 st.info('''
 This project was created with the purpose of supporting the medical community, saving time on the diagnosis process and reducing the associated costs
 for the patients.
-We aimed to support decision-making in steps 4, 5, and 6 to reduce the number of laboratory analyses or specialist consultations.''')
+We aimed to support decision-making in steps 4, 5, and 6 to reduce the number of laboratory analysis or specialist consultations.''')
