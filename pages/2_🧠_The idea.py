@@ -81,6 +81,6 @@ diagnosis and initiate treatment.'''
 c2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
 
 st.info('''
-This project was created with the purpose of supporting the medical community, saving money on the diagnosis process and reducing the associated costs
+This project was created with the purpose of supporting the medical community, saving time on the diagnosis process and reducing the associated costs
 for the patients.
 We aimed to support decision-making in steps 4, 5, and 6 to reduce the number of laboratory analyses or specialist consultations.''')
