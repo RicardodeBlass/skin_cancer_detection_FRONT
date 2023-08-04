@@ -24,15 +24,13 @@ col1, col2 =st.columns(2)
 
 st.write('')
 
-st.write('''
-The purpose of this project is to classify skin images obtained through dermatoscopy into seven different lesions or diseases,
-thereby **_reducing diagnosis time and medical costs_**.''')
 
 with col1:
-   st.markdown('''
-The purpose of this project is to classify skin images obtained through dermatoscopy into seven different lesions or diseases,
-thereby **_reducing diagnosis time and medical costs_**.''')
     st.markdown('''
+
+The purpose of this project is to classify skin images obtained through dermatoscopy into seven different lesions or diseases,
+thereby **_reducing diagnosis time and medical costs_**.
+
 The seven classifications are the following:
 
 >1. Actinic keratoses and intraepithelial carcinoma / Bowen's disease (AKIEC)
