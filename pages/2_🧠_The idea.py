@@ -78,10 +78,7 @@ to a specialist in dermatological oncology, who conducts additional laboratory s
 diagnosis and initiate treatment.'''
 )
 
-with c2:
-   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
-   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
-   st.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
+c2.image(Image.open('/mount/src/skin_cancer_detection_front/pages/Dermatoscopio.jpeg'))
 
 st.info('''
 This project was created with the purpose of supporting the medical community, saving time on the diagnosis process and reducing the associated costs
