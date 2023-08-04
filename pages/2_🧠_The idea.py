@@ -29,6 +29,9 @@ The purpose of this project is to classify skin images obtained through dermatos
 thereby **_reducing diagnosis time and medical costs_**.''')
 
 with col1:
+   st.markdown('''
+The purpose of this project is to classify skin images obtained through dermatoscopy into seven different lesions or diseases,
+thereby **_reducing diagnosis time and medical costs_**.''')
     st.markdown('''
 The seven classifications are the following:
 
